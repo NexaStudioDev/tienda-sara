@@ -3,7 +3,7 @@
     "title": "Juegos para Sara",
     "author": "Eduardo",
     "description": "Acá se pondrán los juegos de la Nintendo DS clásica para que los descargues.",
-    "url": "AQUI_VA_LA_URL_RAW_DE_TU_GITHUB",
+    "url": "https://raw.githubusercontent.com/NexaStudioDev/tienda-sara/refs/heads/main/sara.unistore",
     "file": "sara.unistore",
     "revision": 2,
     "version": 3
