@@ -1,0 +1,31 @@
+{
+  "storeInfo": {
+    "title": "Juegos para Sara",
+    "author": "Eduardo",
+    "description": "Acá se pondrán los juegos de la Nintendo DS clásica para que los descargues.",
+    "url": "AQUI_PONDREMOS_EL_LINK_DE_ESTE_JSON_CUANDO_LO_SUBAS",
+    "file": "sara.unistore",
+    "revision": 1
+  },
+  "storeContent": [
+    {
+      "info": {
+        "title": "LEGO Harry Potter (Años 1-4)",
+        "author": "Warner Bros",
+        "description": "Aventura de Lego basada en los primeros 4 años de Hogwarts.",
+        "category": ["Juegos DS"]
+      },
+      "Descargar Juego con Icono": [
+        {
+          "type": "downloadFile",
+          "file": "https://archive.org/download/5053-lego-harry-potter-years-1-4-usa-en-fr-es/5053%20-%20LEGO%20Harry%20Potter%20-%20Years%201-4%20%28USA%29%20%28En%2CFr%2CEs%29.nds",
+          "output": "sdmc:/roms/nds/Lego_Harry_Potter.nds"
+        },
+        {
+          "type": "downloadCia",
+          "file": "https://archive.org/download/00030004424-c-4845-legor-harry-pottertm-years-1-4-twl-blhe-dsi-exclusive-w-v-0.0.0.standard/00030004424C4845%20LEGO%C2%AE%20Harry%20Potter%E2%84%A2%20Years%201-4%20%28TWL-BLHE%29%20%28DSi%20Exclusive%29%20%28W%29%20%28v0.0.0%29.standard.cia"
+        }
+      ]
+    }
+  ]
+}
