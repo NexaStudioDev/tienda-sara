@@ -3,9 +3,10 @@
     "title": "Juegos para Sara",
     "author": "Eduardo",
     "description": "Acá se pondrán los juegos de la Nintendo DS clásica para que los descargues.",
-    "url": "https://raw.githubusercontent.com/NexaStudioDev/tienda-sara/refs/heads/main/sara.unistore",
+    "url": "https://raw.githubusercontent.com/NexaStudioDev/tienda-sara/main/sara.unistore",
     "file": "sara.unistore",
-    "revision": 1
+    "revision": 2,
+    "version": 3
   },
   "storeContent": [
     {
@@ -22,8 +23,17 @@
           "output": "sdmc:/roms/nds/Lego_Harry_Potter.nds"
         },
         {
-          "type": "downloadCia",
-          "file": "https://archive.org/download/00030004424-c-4845-legor-harry-pottertm-years-1-4-twl-blhe-dsi-exclusive-w-v-0.0.0.standard/00030004424C4845%20LEGO%C2%AE%20Harry%20Potter%E2%84%A2%20Years%201-4%20%28TWL-BLHE%29%20%28DSi%20Exclusive%29%20%28W%29%20%28v0.0.0%29.standard.cia"
+          "type": "downloadFile",
+          "file": "https://archive.org/download/00030004424-c-4845-legor-harry-pottertm-years-1-4-twl-blhe-dsi-exclusive-w-v-0.0.0.standard/00030004424C4845%20LEGO%C2%AE%20Harry%20Potter%E2%84%A2%20Years%201-4%20%28TWL-BLHE%29%20%28DSi%20Exclusive%29%20%28W%29%20%28v0.0.0%29.standard.cia",
+          "output": "sdmc:/Lego_Harry_Potter_Forwarder.cia"
+        },
+        {
+          "type": "installCia",
+          "file": "/Lego_Harry_Potter_Forwarder.cia"
+        },
+        {
+          "type": "deleteFile",
+          "file": "sdmc:/Lego_Harry_Potter_Forwarder.cia"
         }
       ]
     }
