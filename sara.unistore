@@ -20,7 +20,7 @@
       "Descargar ROM (.nds)": [
         {
           "type": "downloadFile",
-          "file": "https://archive.org/download/5053-lego-harry-potter-years-1-4-usa-en-fr-es/5053%20-%20LEGO%20Harry%20Potter%20-%20Years%201-4%20%28USA%29%20%28En%2CFr%2CEs%29.nds",
+          "file": "https://github.com/NexaStudioDev/tienda-sara/releases/download/v1.0/Lego_Harry_Potter.nds",
           "output": "sdmc:/roms/nds/Lego_Harry_Potter.nds"
         }
       ]
