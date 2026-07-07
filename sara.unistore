@@ -5,7 +5,7 @@
     "description": "Acá se pondrán los juegos de la Nintendo DS clásica para que los descargues.",
     "url": "https://raw.githubusercontent.com/NexaStudioDev/tienda-sara/main/sara.unistore",
     "file": "sara.unistore",
-    "revision": 4,
+    "revision": 5,
     "version": 3
   },
   "storeContent": [
@@ -22,6 +22,38 @@
           "type": "downloadFile",
           "file": "https://github.com/NexaStudioDev/tienda-sara/releases/download/v1.0/Lego_Harry_Potter.nds",
           "output": "sdmc:/roms/nds/Lego_Harry_Potter.nds"
+        }
+      ]
+    },
+    {
+      "info": {
+        "title": "New Super Mario Bros.",
+        "author": "Nintendo",
+        "description": "El regreso al estilo clásico de plataformas en 2D de Mario.",
+        "category": ["Juegos DS"],
+        "console": ["DS"]
+      },
+      "Descargar ROM (.nds)": [
+        {
+          "type": "downloadFile",
+          "file": "https://github.com/NexaStudioDev/tienda-sara/releases/download/v1.0/New_Super_Mario_Bros.nds",
+          "output": "sdmc:/roms/nds/New_Super_Mario_Bros.nds"
+        }
+      ]
+    },
+    {
+      "info": {
+        "title": "Plants vs. Zombies",
+        "author": "PopCap Games",
+        "description": "Defiende tu jardín de las hordas de zombies usando un ejército de plantas.",
+        "category": ["Juegos DS"],
+        "console": ["DS"]
+      },
+      "Descargar ROM (.nds)": [
+        {
+          "type": "downloadFile",
+          "file": "https://github.com/NexaStudioDev/tienda-sara/releases/download/v1.0/Plants_vs_Zombies.nds",
+          "output": "sdmc:/roms/nds/Plants_vs_Zombies.nds"
         }
       ]
     }
